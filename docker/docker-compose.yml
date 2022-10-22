@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  leetcode:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: leetcode
+    volumes:
+      - ../:/app/leetcode
+      - ./xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+    environment:
+      PHP_IDE_CONFIG: serverName=leetcode
+    command: tail -f /dev/null 2>&1
