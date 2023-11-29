@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethod;
+namespace Patterns\FactoryMethod;
 
 class CarModel implements TransportInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AbstractFactory;
+namespace Patterns\AbstractFactory;
 
 require_once 'ChairInterface.php';
 require_once 'FurnitureFactoryInterface.php';

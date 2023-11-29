@@ -1,6 +1,6 @@
 <?php
 
-namespace LazyLoad;
+namespace Patterns\LazyLoad;
 
 class LazyLoad
 {

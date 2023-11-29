@@ -1,6 +1,6 @@
 <?php
 
-namespace ObjectPool;
+namespace Patterns\ObjectPool;
 
 use stdClass;
 

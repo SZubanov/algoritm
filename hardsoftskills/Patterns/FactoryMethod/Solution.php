@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethod;
+namespace Patterns\FactoryMethod;
 
 require_once 'TransportInterface.php';
 require_once 'BicycleModel.php';

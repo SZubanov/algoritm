@@ -1,6 +1,6 @@
 <?php
 
-namespace AbstractFactory;
+namespace Patterns\AbstractFactory;
 
 class ModernChair implements ChairInterface
 {
